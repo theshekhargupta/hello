@@ -1,0 +1,39 @@
+{
+  "name": "com.example.hello",
+  "displayName": "HelloWorld",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-ios": "^5.1.1"
+  },
+  "devDependencies": {
+    "cordova-plugin-facebook4": "^6.4.0",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-uxcam": "^3.3.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-facebook4": {
+        "APP_ID": "123456789",
+        "APP_NAME": "myApplication",
+        "FACEBOOK_HYBRID_APP_EVENTS": "false",
+        "FACEBOOK_ANDROID_SDK_VERSION": "5.13.0"
+      },
+      "userexperior-cordova-plugin": {},
+      "cordova-uxcam": {}
+    },
+    "platforms": [
+      "ios"
+    ]
+  }
+}
